@@ -1,0 +1,19 @@
+body {
+    background-color: gold;
+}
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    color: aqua;
+    background-color: black;
+}
+table {
+    background-color: black;
+    color: antiquewhite;
+    ;
+}
+td:hover{
+    background-color: white;
+    color: black;
+    size: 120%;
+    padding: 10px;
+}
