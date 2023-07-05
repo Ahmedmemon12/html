@@ -1,0 +1,65 @@
+.navbar{
+    background-color: black;
+    height: 80px;
+    display: flex;
+}
+body{
+}
+.logo{
+    flex-grow: 0.3;
+    color: aquamarine;
+
+}
+.menu{
+    flex-grow: 2;
+    padding-left: 100px;
+    padding: 15px;
+}
+li{
+    display: flex;
+    display: inline-block;
+    color: aquamarine;
+    text-align: center;
+    font-size: 15px;
+    cursor: pointer;
+    width: 100px;
+    padding-left: 100px;
+}
+li:hover{
+    color: red;
+}
+.image{
+    justify-content: right;
+    align-items: right;
+    padding-left: 500px;
+    display: inline-block;
+}
+.imgm{
+    display: flex;
+    align-items: center;
+    background-color: black;
+    justify-content: flex-end;
+}
+.heading{
+    color:white;
+}
+.heading > h1{
+    color: aquamarine;
+}
+.skills{
+    color: aquamarine;
+}
+button{
+    background-color:aquamarine;
+    font-size: 18px;
+    height: 50px;
+    width: 180px;
+    border-radius: 40%;
+    cursor: pointer;
+}
+button:hover{
+    background-color: red;
+    color: black;
+    font-size: 20px;
+
+}
