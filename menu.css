@@ -4,22 +4,26 @@
     display: flex;
 }
 body{
+    background-color: black;
+    margin: 0px;
+    padding: 0px;
 }
 .logo{
     flex-grow: 0.3;
     color: aquamarine;
+    padding-left: 25px;
 
 }
 .menu{
-    flex-grow: 2;
-    padding-left: 100px;
-    padding: 15px;
+    flex-grow: 1;
+    padding-left: 400px;
+    padding-top: 15px;
 }
 li{
     display: flex;
     display: inline-block;
     color: aquamarine;
-    text-align: center;
+    text-align: right;
     font-size: 15px;
     cursor: pointer;
     width: 100px;
@@ -42,6 +46,8 @@ li:hover{
 }
 .heading{
     color:white;
+    font-size: 25px;
+    padding-left: 100px;
 }
 .heading > h1{
     color: aquamarine;
@@ -53,8 +59,8 @@ button{
     background-color:aquamarine;
     font-size: 18px;
     height: 50px;
-    width: 180px;
-    border-radius: 40%;
+    width: 200px;
+    border-radius: 100px;
     cursor: pointer;
 }
 button:hover{
@@ -62,4 +68,8 @@ button:hover{
     color: black;
     font-size: 20px;
 
+}
+.image > img {
+    width: 700px;
+    padding-right: 50px;
 }
