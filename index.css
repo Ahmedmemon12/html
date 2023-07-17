@@ -100,8 +100,8 @@ li:hover{
 .box1{
     background-color: #54a5dc;
     padding-left: 500px;
-    height: 80px;
-    width: 1080px;
+    height: 80p;
+    width: 100%;
     padding-top: 10px;
     display: flex;
 }
@@ -112,7 +112,7 @@ li:hover{
     margin-bottom: 20px;
     width: 200px;
 
-    margin-top: 25px;
+    margin-top: 2c5px;
 }
 .box1 > h1{
     padding-right: 20px;
@@ -129,7 +129,7 @@ option{
     height: 170px;
     color: #fff;
     font-size: 25px;
-    width: 1279px;
+    width: 100%;
     justify-content: center;
     text-align: center;
 }
@@ -171,12 +171,13 @@ h6 {
     padding-left: 200px;
     text-align: justify;
     font-size: 18px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     padding-top: 100px;
     line-height: 150%;
     color: rgb(94, 94, 94);
 
 }
-iframe{
+.videous{
     display: inline-block;
     left: 55%;
     position: absolute;
@@ -191,6 +192,9 @@ iframe{
     color: white;
     border: #54a5dc;
     border-radius: 3px 3px 3px 3px;
+    margin-left: 326px;
+    margin-top: 24px;
+    margin-bottom: 30px;
 }
 .Course1{
  height: 70px;
@@ -217,7 +221,7 @@ iframe{
   }
 
   .fc {
-    height: 325px;
+    height: 350px;
     width: 250px;
     border: 0.5px solid #54a5dc;
     margin: 10px 15px;
@@ -225,6 +229,8 @@ iframe{
     overflow: hidden;
     font-size: 15px;
     cursor: all-scroll;
+    border-width: 0 1px 2px 1px;
+        border-color: transparent #eee #54a5dc #eee;
 
   }
 
@@ -297,28 +303,53 @@ iframe{
     display: flex;
     height: 300px;
     justify-content: center;
+    background-color: #f0f0f0;
 }
 .pih_container{
     display: flex;
     height: 300px;
     justify-content: center;
+    background-color: #f0f0f0;
 }
 .pih{
-    height: 190px;
+    /* height: 190px; */
     width: 100px;
     border-width: 2px;
     padding: 120px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* position: relative; */
+
 
 }
+
 .igcontainer{
     display: flex;
+    flex-wrap: wrap;
     padding: 30px;
     justify-content: center;
     background-color: #f0e4e4;
 
 }
 .imgA{
-    padding-right: 50px;
+    padding-right: 50px;   
+}
+.topimg{
+    border-radius: 100%;
+    border: 10px solid #e2e2e2;
+}
+.bottomimg{
+    position: absolute;
+    flex-wrap: wrap;
+    left: 100;
+    top: 100;
+    opacity: 0%;
+    border-radius: 100%;
+}
+.bottomimg:hover{
+    opacity: 100%;
 }
 .imgB{
     padding-left: 40px;
@@ -328,6 +359,7 @@ iframe{
    height: 100px;
    width: 100%;
    display: flex;
+   flex-wrap: wrap;
    align-items: center;
    justify-content: center;
    font-family: Arial, Helvetica, sans-serif;
@@ -337,6 +369,7 @@ iframe{
 .vgcontainer{
     display: flex;
     padding: 30px;
+    flex-wrap: wrap;
     justify-content: center;
     background-color: #f0e4e4;
 }
@@ -352,6 +385,7 @@ iframe{
    height: 100px;
    width: 100%;
    display: flex;
+   flex-wrap: wrap;
    align-items: center;
    justify-content: center;
    font-family: Arial, Helvetica, sans-serif;
@@ -360,6 +394,7 @@ iframe{
 }
 .tsmltxt{
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     height: 100px;
     width: 1000px;
@@ -375,6 +410,7 @@ iframe{
     height: 100px;
     width: 100%;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     font-family: Arial, Helvetica, sans-serif;
@@ -396,6 +432,7 @@ iframe{
     font-size: 14.3px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     display: flex;
+    flex-wrap: wrap;
     display: inline-block;
     width: 300px;
     padding-left: 200px;
@@ -421,6 +458,7 @@ iframe{
 .form{
     padding-top: 100px;
     padding-left: 30px;
+    flex-wrap: wrap ;
 }
 #name{
     height: 43px;
@@ -466,3 +504,50 @@ iframe{
     text-decoration: none;
 
 }
+.icon-bar {
+    position: fixed;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+  
+  /* Style the icon bar links */
+  .icon-bar a {
+    display: block;
+    text-align: center;
+    padding: 16px;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 20px;
+  }
+  
+  /* Style the social media icons with color, if you want */
+  .icon-bar a:hover {
+    background-color: #000;
+  }
+  
+  .facebook {
+    background: #3b5998;
+    color: white;
+  }
+  
+  .twitter {
+    background: #55acee;
+    color: white;
+  }
+  
+  .google {
+    background: #dd4b39;
+    color: white;
+  }
+  
+  .linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  
+  .youtube {
+    background: #25a152;
+    color: white;
+  }
