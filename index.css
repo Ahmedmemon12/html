@@ -1,0 +1,202 @@
+/* .main-container{
+    background-color: brown;
+    height: 300px;
+    width: 100%;
+    display: flex;
+    padding: 50px 0px;
+    justify-content: center;
+    border-radius: 0 0 50px 50px;
+}
+.semi-main{
+    background-color: bisque;
+    height: 600px;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    margin:0 20px;
+    border-radius: 40px;
+}
+.main-heading{
+    text-align: center;
+    font-size: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: red;
+}
+.x {
+    margin: 0 20px;
+}
+.x > h4 {
+    justify-content: center;
+    border: 2px solid black;
+    padding: 10px;
+}
+.B{
+    height: 50px;
+    width: 90px;
+    cursor: pointer;
+    margin: 10px;
+    font-size: 15px;
+    font-weight: 1000;
+}
+.IncomeB{
+    background-color: greenyellow;
+}
+.ExpenseB{
+    background-color: red;
+}
+.input{
+    width: 220px;
+    height: 30px;
+}
+body{
+    background-color: rgb(0, 0, 0);
+}    */
+
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Set a background color */
+body {
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+}
+
+/* Style the main heading with animation */
+.main-heading {
+    text-align: center;
+    margin-top: 20px;
+    color: #333;
+    animation: fadeIn 1s ease-in-out;
+}
+
+/* Style the main container with animation */
+.main-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    animation: slideIn 1s ease-in-out;
+}
+
+/* Style the semi-main container with animation */
+.semi-main {
+    display: flex;
+    justify-content: space-between;
+    animation: fadeIn 1s ease-in-out;
+}
+
+/* Style the Income and Loss containers with animation */
+.Income, .Loss {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+    background-color: #e0e0e0;
+    border-radius: 5px;
+    animation: fadeIn 1s ease-in-out;
+}
+
+/* Style the Profit/Loss container with animation */
+.Profit {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+    background-color: #e0e0e0;
+    border-radius: 5px;
+    margin:0 10px;
+    animation: fadeIn 1s ease-in-out;
+}
+
+/* Style the input field and buttons with animation */
+.input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    animation: slideIn 1s ease-in-out;
+}
+
+.button {
+    margin-top: 10px;
+    text-align: center;
+    animation: fadeIn 1s ease-in-out;
+}
+
+.IncomeB, .ExpenseB {
+    padding: 10px 20px;
+    margin-right: 10px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    animation: fadeIn 1s ease-in-out;
+}
+
+.IncomeB{
+    background-color: #45a049;
+}
+
+.ExpenseB{
+    background-color: red;
+}
+
+/* Style the buttons when hovering with animation */
+.IncomeB:hover, .ExpenseB:hover {
+    background-color: blue;
+    animation: pulse 0.5s ease infinite;
+}
+
+/* Style the spans containing the numbers with animation */
+span {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    animation: scaleIn 1s ease-in-out;
+}
+
+/* Keyframe animations */
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes slideIn {
+    0% {
+        transform: translateY(-20px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.05);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+@keyframes scaleIn {
+    0% {
+        transform: scale(0);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
