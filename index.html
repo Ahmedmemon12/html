@@ -3,43 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="index.css">
-    <title>Expense Calculator</title>
+    <title>Todo App</title>
+    <link rel="stylesheet" href="todo.css">
 </head>
 <body>
-    <h1 class="main-heading">Expense Calculator App</h1>
-    <div class="main-container">
-        
-        <div class="semi-main">
-            <div class="Income x">
-               <h4>Income</h4>
-               <h4><span id="income">0</span></h4>
-            </div>
-            <div class="Profit x">
-                <h4>Profit/Loss</h4>
-                <h4><span id="profit">0</span></h4>
-                <br><br><br>
-                
-            
-             </div>
-             <div class="Loss x">
-               <h4>Expense</h4>
-               <h4><span id="expense">0</span></h4> 
-               
-           </div>
-            
-        </div>
-        <input type="number" placeholder="Enter Amount" height="" class="input" id="amount"><br>
-            <div class="button">
-            <button onclick="addincome()" class="IncomeB B">Income</button>
-            <button onclick="addExpense()" class="ExpenseB B">Expense</button>
-        </div>
-
+    <!-- <div class="form">
+        <span>Current Date</span>
+        <input type="date" id="current_date">
+        <span>Enter Work</span>
+        <input type="text" placeholder="Enter Work to do" id="work_todo">
+        <span>Due Date</span>
+        <input type="date" id="due_date">
+        <button class="enter" onclick="createWork()">Enter</button>
     </div>
+    <div class="container" id="container">
+        <h1>Todo App</h1>
+    </div> -->
+    <h1>Student Info</h1>
+    
+    <div class="input_container" id="inputContainer">
+        <h1>Enter Details</h1>
+        <input type="text" placeholder="Enter Student Name" id="nameInput">
+        <input type="text" placeholder="Enter  Stu.Father Name" id="FatherInput">
+        <input type="number" placeholder="Enter Score" id="Score">
+        <button class="EI" onclick="Edit_info()">Update</button>
+    </div>
+    
+    <table class="container" id="container">
+        <button onclick="showIpnut()" class="CN">Create New</button>
+        <tr>
+            <th>#</th>
+            <th>Student Name</th>
+            <th>Father Name</th>
+            <th>Student Score</th>
+            <th>Total Score</th>
+        </tr>
+    </table>
+    
 
 
-
-
-    <script src="index.js"></script>
+<script src="todo.js"></script>
 </body>
 </html>
