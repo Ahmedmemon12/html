@@ -3,45 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Todo App</title>
-    <link rel="stylesheet" href="todo.css">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- <div class="form">
-        <span>Current Date</span>
-        <input type="date" id="current_date">
-        <span>Enter Work</span>
-        <input type="text" placeholder="Enter Work to do" id="work_todo">
-        <span>Due Date</span>
-        <input type="date" id="due_date">
-        <button class="enter" onclick="createWork()">Enter</button>
-    </div>
-    <div class="container" id="container">
-        <h1>Todo App</h1>
-    </div> -->
-    <h1>Student Info</h1>
-    
-    <div class="input_container" id="inputContainer">
-        <h1>Enter Details</h1>
-        <input type="text" placeholder="Enter Student Name" id="nameInput">
-        <input type="text" placeholder="Enter  Stu.Father Name" id="FatherInput">
-        <input type="number" placeholder="Enter Score" id="Score">
-        <button class="EI" onclick="Edit_info()">Update</button>
-    </div>
-    
-    <table class="container" id="container">
-        <button onclick="showIpnut()" class="CN">Create New</button>
-        <tr>
-            <th>#</th>
-            <th>Student Name</th>
-            <th>Father Name</th>
-            <th>Student Score</th>
-            <th>Total Score</th>
-        </tr>
-    </table>
-    
+    <!-- Heading -->
+    <div class="text"><h1>Image Cards</h1></div>
 
+    <!-- Preview Div -->
+    <div class="preview" id="preview">
+        <img src="" alt="" id="previewImage" class="model">
+        <div class="close" id="close"><h1>×</h1></div>
+    </div>
 
-<script src="todo.js"></script>
+    <!-- Image Container -->
+    <div class="container" id="container"></div>
+    
+    <script src="function.js"></script>
 </body>
 </html>
