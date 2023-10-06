@@ -1,74 +1,58 @@
-const firstTheme = document.getElementById('First');
-const secondTheme = document.getElementById('Second');
-const thirdTheme = document.getElementById('Third');
-const fourthTheme = document.getElementById('Fourth');
-const fifthTheme = document.getElementById('Fifth');
-const sixthTheme = document.getElementById('Sixth');
+const imageArray = [
+    "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
+    "https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_.jpg",
+    "https://fakestoreapi.com/img/71li-ujtlUL._AC_UX679_.jpg",
+    "https://fakestoreapi.com/img/71YXzeOuslL._AC_UY879_.jpg",
+    "https://fakestoreapi.com/img/71pWzhdJNwL._AC_UL640_QL65_ML3_.jpg",
+    "https://fakestoreapi.com/img/61sbMiUnoGL._AC_UL640_QL65_ML3_.jpg",
+    "https://fakestoreapi.com/img/71YAIFU48IL._AC_UL640_QL65_ML3_.jpg",
+    "https://fakestoreapi.com/img/51UDEzMJVpL._AC_UL640_QL65_ML3_.jpg",
+    "https://fakestoreapi.com/img/61IBBVJvSDL._AC_SY879_.jpg",
+    "https://fakestoreapi.com/img/61U7T1koQqL._AC_SX679_.jpg",
+    "https://fakestoreapi.com/img/71kWymZ+c+L._AC_SX679_.jpg",
+    "https://fakestoreapi.com/img/61mtL65D4cL._AC_SX679_.jpg",
+    "https://fakestoreapi.com/img/81QpkIctqPL._AC_SX679_.jpg",
+    "https://fakestoreapi.com/img/81Zt42ioCgL._AC_SX679_.jpg",
+    "https://fakestoreapi.com/img/51Y5NI-I5jL._AC_UX679_.jpg",
+    "https://fakestoreapi.com/img/81XH0e8fefL._AC_UY879_.jpg",
+    "https://fakestoreapi.com/img/71HblAHs5xL._AC_UY879_-2.jpg",
+    "https://fakestoreapi.com/img/71z3kpMAYsL._AC_UY879_.jpg",
+    "https://fakestoreapi.com/img/51eg55uWmdL._AC_UX679_.jpg",
+    "https://fakestoreapi.com/img/61pHAEJ4NML._AC_UX679_.jpg"
+];
 
-const firstContainer = document.getElementById('Container');
-const secondContainer = document.getElementById('Container2');
-const thirdContainer = document.getElementById('Container3');
+const container = document.getElementById('container');
+const previewContainer = document.getElementById('preview');
+const previewImg = document.getElementById('previewImage');
+const closeButton = document.getElementById('close');
 
-const Footer = document.getElementsByTagName('footer');
-const Header = document.getElementById('header');
-const mainContainer = document.getElementById('main')
 
-const Editor = document.getElementById('Editor')
+for (let i = 0; i < imageArray.length; i++){
+    
+    const image = document.createElement('img');
+    image.className = 'image';
+    image.src = imageArray[i];
 
-const button = document.getElementById('changeTheme');
 
-button.addEventListener('click', function(){
-    Editor.style.display = 'flex'
-    mainContainer.style.display = 'none'
+    image.addEventListener('click', function () {
+        previewContainer.style.display = 'flex';
+        container.style.display = "none"
+        previewImg.src = imageArray[i];
+    });
+
+
+    container.appendChild(image); 
+}
+
+closeButton.addEventListener('click' , function(){
+    container.style.display = "flex"
+    previewContainer.style.display = "none"
 })
 
-firstTheme.addEventListener('click', function(){
-    Header.className = 'BHeader'
-    firstContainer.className = 'Bcontainer'
-    secondContainer.className = 'Bcontainer2'
-    thirdContainer.className = 'Bcontainer3'
-    Editor.style.display = 'none'
-    mainContainer.style.display = 'block'
-})
-secondTheme.addEventListener('click', function(){
-    Header.className = 'PHeader'
-    firstContainer.className = 'Pcontainer'
-    secondContainer.className = 'Pcontainer2'
-    thirdContainer.className = 'Pcontainer3'
-    Editor.style.display = 'none'
-    mainContainer.style.display = 'block'
 
-})
-thirdTheme.addEventListener('click', function(){
-    Header.className = 'GHeader'
-    firstContainer.className = 'Gcontainer'
-    secondContainer.className = 'Gcontainer2'
-    thirdContainer.className = 'Gcontainer3'
-    Editor.style.display = 'none'
-    mainContainer.style.display = 'block'
-})
-fourthTheme.addEventListener('click', function(){
-    Header.className = 'YHeader'
-    firstContainer.className = 'Ycontainer'
-    secondContainer.className = 'Ycontainer2'
-    thirdContainer.className = 'Ycontainer3'
-    Editor.style.display = 'none'
-    mainContainer.style.display = 'block'
-})
-fifthTheme.addEventListener('click', function(){
-    Header.className = 'BlHeader'
-    firstContainer.className = 'Blcontainer'
-    secondContainer.className = 'Blcontainer2'
-    thirdContainer.className = 'Blcontainer3'
-    Editor.style.display = 'none'
-    mainContainer.style.display = 'block'
-})
-sixthTheme.addEventListener('click', function(){
-    Header.className = 'DHeader'
-    firstContainer.className = 'Dcontainer'
-    secondContainer.className = 'Dcontainer2'
-    thirdContainer.className = 'Dcontainer3'
-    Footer.className = 'Dfooter'
-    Editor.style.display = 'none'
-    mainContainer.style.display = 'block'
-})
+
+
+
+
+
+        

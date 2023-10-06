@@ -1,600 +1,68 @@
 body{
-    padding: 0%;
-    margin: 0%;
-}
-.BHeader{
-    background-color: rgb(56, 55, 55);
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-family: Arial, Helvetica, sans-serif;
-    text-transform: uppercase;
-}
-.Bcontainer{
-    display: flex;
     background-color: #ccc;
-    align-items: center;
-    justify-content: center;
+    display: flex;
     flex-direction: column;
-    text-align: center;
-    border-bottom: 10px solid black;
-}
-.Bcontainer > p{
-    font-size: 33px;
-    font-weight: 900;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    text-transform: uppercase;
-}
-.Bcontainer > h3{
-    width: 900px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.Bcontainer2{
-    display: flex;
-    background-color: #ccc;
     align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
-    border-bottom: 10px solid black;
-}
-
-.Bcontainer2 > p{
-    font-size: 33px;
-    font-weight: 900;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    text-transform: uppercase;
-}
-.Bcontainer2 > h3{
-    width: 900px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-.Bcontainer3{
-    display: flex;
-    background-color: #ccc;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
-    border-bottom: 10px solid black;
-}
-
-.Bcontainer3 > p{
-    font-size: 33px;
-    font-weight: 900;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    text-transform: uppercase;
-}
-.Bcontainer3 > h3{
-    width: 900px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-
-
-
-.PHeader{
-    background-color: rgb(255, 0, 157);
-    color: rgb(255, 251, 0);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-family: Arial, Helvetica, sans-serif;
-    text-transform: uppercase;
-}
-.Pcontainer{
-    display: flex;
-    background-color: pink;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
-    border-bottom: 10px solid black;
-}
-.Pcontainer > p{
-    font-size: 33px;
-    font-weight: 900;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    text-transform: uppercase;
-}
-.Pcontainer > h3{
-    width: 900px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.Pcontainer2{
-    display: flex;
-    background-color: pink;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
-    border-bottom: 10px solid black;
-}
-
-.Pcontainer2 > p{
-    font-size: 33px;
-    font-weight: 900;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    text-transform: uppercase;
-}
-.Pcontainer2 > h3{
-    width: 900px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-.Pcontainer3{
-    display: flex;
-    background-color: pink;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
-    border-bottom: 10px solid black;
-}
-
-.Pcontainer3 > p{
-    font-size: 33px;
-    font-weight: 900;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    text-transform: uppercase;
-}
-.Pcontainer3 > h3{
-    width: 900px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-
-
-
-
-.GHeader{
-    background-color: greenyellow;
-    color: rgb(255, 255, 255);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-family: Arial, Helvetica, sans-serif;
-    text-transform: uppercase;
-}
-.Gcontainer{
-    display: flex;
-    background-color: #9fff9f;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
-    border-bottom: 10px solid black;
-}
-.Gcontainer > p{
-    font-size: 33px;
-    font-weight: 900;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    text-transform: uppercase;
-}
-.Gcontainer > h3{
-    width: 900px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.Gcontainer2{
-    display: flex;
-    background-color: #9fff9f;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
-    border-bottom: 10px solid black;
-}
-
-.Gcontainer2 > p{
-    font-size: 33px;
-    font-weight: 900;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    text-transform: uppercase;
-}
-.Gcontainer2 > h3{
-    width: 900px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-.Gcontainer3{
-    display: flex;
-    background-color: #9fff9f;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
-    border-bottom: 10px solid black;
-}
-
-.Gcontainer3 > p{
-    font-size: 33px;
-    font-weight: 900;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    text-transform: uppercase;
-}
-.Gcontainer3 > h3{
-    width: 900px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-
-
-
-
-
-.YHeader{
-    background-color: yellow;
-    color: rgb(0, 0, 0);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-family: Arial, Helvetica, sans-serif;
-    text-transform: uppercase;
-}
-.Ycontainer{
-    display: flex;
-    background-color: #fffd9f;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
-    border-bottom: 10px solid black;
-}
-.Ycontainer > p{
-    font-size: 33px;
-    font-weight: 900;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    text-transform: uppercase;
-}
-.Ycontainer > h3{
-    width: 900px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.Ycontainer2{
-    display: flex;
-    background-color: #fffd9f;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
-    border-bottom: 10px solid black;
-}
-
-.Ycontainer2 > p{
-    font-size: 33px;
-    font-weight: 900;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    text-transform: uppercase;
-}
-.Ycontainer2 > h3{
-    width: 900px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-.Ycontainer3{
-    display: flex;
-    background-color: #fffd9f;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
-    border-bottom: 10px solid black;
-}
-
-.Ycontainer3 > p{
-    font-size: 33px;
-    font-weight: 900;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    text-transform: uppercase;
-}
-.Ycontainer3 > h3{
-    width: 900px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-
-
-
-
-.BlHeader{
-    background-color: rgb(0, 102, 255);
-    color: rgb(0, 0, 0);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-family: Arial, Helvetica, sans-serif;
-    text-transform: uppercase;
-}
-.Blcontainer{
-    display: flex;
-    background-color: #aaf8f8;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
-    border-bottom: 10px solid black;
-}
-.Blcontainer > p{
-    font-size: 33px;
-    font-weight: 900;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    text-transform: uppercase;
-}
-.Blcontainer > h3{
-    width: 900px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.Blcontainer2{
-    display: flex;
-    background-color: #aaf8f8;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
-    border-bottom: 10px solid black;
-}
-
-.Blcontainer2 > p{
-    font-size: 33px;
-    font-weight: 900;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    text-transform: uppercase;
-}
-.Blcontainer2 > h3{
-    width: 900px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-.Blcontainer3{
-    display: flex;
-    background-color: #aaf8f8;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
-    border-bottom: 10px solid black;
-}
-
-.Blcontainer3 > p{
-    font-size: 33px;
-    font-weight: 900;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    text-transform: uppercase;
-}
-.Blcontainer3 > h3{
-    width: 900px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-
-
-
-
-.DHeader{
-    background-color: rgb(0, 0, 0);
-    color: rgb(255, 251, 0);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-family: Arial, Helvetica, sans-serif;
-    text-transform: uppercase;
-}
-.Dcontainer{
-    display: flex;
-    background-color: #414141;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
-    border-bottom: 10px solid rgb(255, 255, 255);
-}
-.Dcontainer > p{
-    font-size: 33px;
-    font-weight: 900;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color: white;
-    text-transform: uppercase;
-}
-.Dcontainer > h3{
-    width: 900px;
-    font-family: Arial, Helvetica, sans-serif;
-    color: white;
-}
-
-.Dcontainer2{
-    display: flex;
-    background-color: #414141;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
-    border-bottom: 10px solid rgb(255, 255, 255);
-    color: white;
-}
-
-.Dcontainer2 > p{
-    font-size: 33px;
-    font-weight: 900;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    text-transform: uppercase;
-}
-.Dcontainer2 > h3{
-    width: 900px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-.Dcontainer3{
-    display: flex;
-    background-color: #414141;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
-    border-bottom: 10px solid rgb(255, 255, 255);
-    color: white;
-}
-
-.Dcontainer3 > p{
-    font-size: 33px;
-    font-weight: 900;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    text-transform: uppercase;
-}
-.Dcontainer3 > h3{
-    width: 900px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-.Dfooter{
-    background-color: #000;
-}
-
-
-
-
-
-body, ul {
-    margin: 0;
     padding: 0;
-}
-
-footer {
-    background-color: #333;
-    color: #fff;
-    padding: 20px 0;
-}
-
-.footer-content {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 20px;
-}
-
-.footer-logo img {
-    max-width: 100px;
-}
-
-.footer-links ul {
-    list-style: none;
-}
-
-.footer-links ul li {
-    display: inline;
-    margin-right: 20px;
-}
-
-.footer-links a {
-    text-decoration: none;
-    color: #fff;
-}
-
-.footer-contact p {
     margin: 0;
 }
 
-.footer-bottom {
-    text-align: center;
-    padding-top: 10px;
-}
-.BCustom{
-    background-color: #a1a1a1;
-    color: rgb(0, 0, 0);
-    font-size: 13px;
-    cursor: pointer;
-    font-weight: 900;
-    height: 40px;
-    width: 130px;
-    position: absolute;
-    right: 0;
-    box-shadow: 5px 5px 5px wheat;
-}
-.BCustom:hover{
-    background-color: #ffffff;
-    transition: 1s;
-    transform: scale(1.1);
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
 }
 
-.Beditor{
+.image{
+    height: 250px;
+    width: 250px;
+    margin: 10px;
+    cursor: pointer;
+    border: 2px solid black;
+    border-radius: 20px;
+    aspect-ratio: 1/1;
+}
+.image:hover{
+    transform: scale(1.1);
+    transition: 1s;
+    border-radius: 0px;
+    box-shadow: 1px 1px 1px 5px rgb(255, 0, 0);
+}
+.text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 0, 0, 0.377);
+}
+.preview{
     background-color: white;
     height: 790px;
-    width: 100%;
-    z-index: 9;
+    width: 1400px;
     position: fixed;
-    flex-direction: column;
     display: flex;
-    justify-content: center;
     align-items: center;
-    padding-top: 20px;
-    background-color: #ccc;
+    justify-content: center;
     display: none;
+    transition:1s;
+}   
+.model{
+    height: 650px;
+    width: 650px;
+    aspect-ratio: 1/1;
+    cursor: zoom-in;
 }
-.Beditor > h1{
-    background-color: #000000bb;
-    height: 40px;
-    color: white;
-    width: 70%;
-    text-align: center;
-}
-
-.Themes{
-    background-color: #585858;
-    height: 1000px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 1200px;
-}
-.FTheme{
-    background-color: #ccc;
+.close{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: 60px;
     border: 2px solid black;
-    height: 400px;
-    width: 150px;
-    margin: 0 10px;
-    cursor: pointer;
+    border-radius: 100%;
+    height: 50px;
+    width: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
-}
-.Second{
-    background-color: pink;
     cursor: pointer;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: palevioletred;
-}
-.Third{
-    background-color: greenyellow;
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: green;
-}
-.Fourth{
-    background-color: yellow;
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: rgb(110, 104, 8);
-}
-.Fifth{
-    background-color: lightblue;
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: blue;
-}
-.Sixth{
-    background-color: #1b1b1b;
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: white;
 }
